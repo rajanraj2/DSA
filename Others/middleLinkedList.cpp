@@ -23,9 +23,6 @@ Node* middle(Node *head){
         fast = fast->next->next;
     }
     return slow;
-
-
-
 }
 
 int main(){

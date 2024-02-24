@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-void partition(vector<int> &arr, int low, int high){
+int partition(vector<int> &arr, int low, int high){
     int pivot = arr[low];
     int i = low;
     int j = high;
